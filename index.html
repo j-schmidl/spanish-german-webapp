@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Spanish Vocabulary Learning</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Learn Spanish Vocabulary</h1>
+    
+    <div class="input-group">
+        <label for="start">Start:</label>
+        <input type="number" id="start" name="start" min="0" max="9900" value="0">
+        
+        <label for="end">End:</label>
+        <input type="number" id="end" name="end" min="0" max="10000" value="100">
+    </div>
+    
+    <div class="input-group">
+        <label>Direction:</label>
+        <input type="radio" id="sp_to_ge" name="direction" value="sp_to_ge" checked>
+        <label for="sp_to_ge">Spanish to German</label>
+        
+        <input type="radio" id="ge_to_sp" name="direction" value="ge_to_sp">
+        <label for="ge_to_sp">German to Spanish</label>
+    </div>
+    
+    <button id="start-learning">Start Learning</button>
+    
+
+    <div class="display-area">
+        <div class="image" id="image-container">
+            <div class="word" id="word-display">
+                <!-- Word will be displayed here -->
+            </div>
+            <div class="progress" id="progress-display">
+                <!-- Progress will be displayed here -->
+            </div>
+        </div>
+    </div>
+    
+    <button id="flip-card">Karte umdrehen</button>
+    <button id="next-card">Nächste Karte</button>
+
+    <div class="completion" id="completion-area" style="display: none;">
+        <img src="path_to_your_gif.gif" alt="Completion GIF" id="completion-gif">
+        <button id="restart">Nochmal dieselben Karten lernen</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+</div>

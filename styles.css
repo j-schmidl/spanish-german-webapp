@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.display-area {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.image {
+    background: url('path_to_your_image.jpg') center center/cover no-repeat;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.word {
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.progress {
+    position: absolute;
+    bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.display-area {
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.word {
+    font-size: 24px;
+}
+
+
+.completion {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.completion img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
