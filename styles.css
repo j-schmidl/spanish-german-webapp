@@ -46,6 +46,32 @@ body {
 }
 
 
+.language-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.lang-btn {
+    padding: 8px 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.lang-btn:hover {
+    background-color: #eee;
+}
+
+.lang-btn.active {
+    background-color: #333;
+    color: #fff;
+}
+
 .input-group {
     margin-bottom: 10px;
 }
